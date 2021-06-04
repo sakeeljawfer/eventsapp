@@ -1,12 +1,11 @@
 import React from 'react';
-
-
-function App() {
+import EventDashboard from '../../features/events/eventDashboard/EventDashboard';
+export default function App() {
   return (
-    <div className="App">
+    <div>
    <h1>Re-Events</h1>
+   <EventDashboard/>
     </div>
   );
 }
 
-export default App;
